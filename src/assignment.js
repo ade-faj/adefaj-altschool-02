@@ -15,10 +15,10 @@ const assignment = {};
  */
 function sumOfNumbers(arrayOfNumbers) {
     var sum = 0; 
-for(var i=0; i < arrayOfNumbers.length; i++) {
+for  (var i=0; i < arrayOfNumbers.length; i++) {
     sum += arrayOfNumbers[i];
-    return sum;
 }
+return sum;
 }
 assignment.sumOfNumbers = sumOfNumbers;
 
